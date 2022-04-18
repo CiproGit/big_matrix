@@ -14,7 +14,7 @@ int main(void) {
 	cout << N;
 	cout << " * ";
 	cout << N;
-	cout << " matrix...\n";
+	cout << " matrix..." << endl;
 
 	for (unsigned int j = 0; j < N; j++) {
 		for (unsigned int k = 0; k < N; k++) matrix[j][k] = j * k;
@@ -22,8 +22,8 @@ int main(void) {
 
 	cout << "Memory occupation: ";
 	cout << (sizeof(float) * N * N) / (1024 * 1024 * 1024);
-	cout << " GB\n";
+	cout << " GB" << endl;
 
-	cout << "End\n" << endl;
+	cout << "End" << endl;
 	return EXIT_SUCCESS;
 }
